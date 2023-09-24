@@ -7,7 +7,7 @@ This project comprises two main components:
 Within this project, we will be utilizing an input file named test.csv.
 
 Before you initiate the execution of this code, it is essential to confirm that:
-1. The Kafka server is running.
+1. The Kafka server is running (please install kafka if not installed https://kafka.apache.org/downloads).
 2. A Kafka topic with the name "demo" has been created.
 
 to execute the code, you need to run the producer Project
