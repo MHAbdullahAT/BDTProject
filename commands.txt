@@ -1,0 +1,5 @@
+bin/kafka-server-start.sh config/server.properties --this is to start kafka server
+
+bin/kafka-topics.sh --create --topic demo --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --this to create a topic
+
+./kafka-topics.sh --list --bootstrap-server localhost:9092 --this to list all topics on kafka server
